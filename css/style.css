@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style: none;
+    text-decoration: none !important;
+}
+.icon_block{
+    color: #52B3EF;
+}
+i{
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.social_network i{
+    color: grey;
+    transition: .4s;
+}
+.social_network i:hover{
+    color: #52B3EF;
+}
+.dp_content{
+    position: absolute;
+    background-color: #fff  ;
+    width: 150px;
+    border-radius: 15px;
+    opacity: 0;
+    top: 20px;
+    visibility: hidden; 
+}
+.bottom_right ul li a{
+    color: #000;
+    transition: .4s;
+}
+.bottom_right ul li a:hover {
+    color: #52B3EF;
+}
+.dp_content ul li a{
+    color: #000 ;
+    display: block;
+    margin: 5px 0;
+}
+
+.dropdown:hover .dp_content{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+.dp_content li a:hover {
+    border-radius: 15px;
+}
+#Welcome
+{
+    
+   padding: 260px; 
+    background-image: url(http://anpsthemes.com/limorent/demo-1/wp-content/uploads/2017/01/slider3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome_text a{
+    padding: 12px 35px;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.4s;
+    
+}
+.explore{
+    border:  1px solid #4d9ed0;
+    background-color: #4d9ed0;
+    color: #fff;
+}
+.buynow{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+}
+.explore:hover{
+    background-color: #3988b9;
+    border: 1px solid #3988b9;
+    color: #fff;
+}
+.buynow:hover{
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+.welcome_text h1{
+    font-size: 90px;
+    color: #fff;
+}
+.welcome_text p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+.desirve_right{
+    padding: 200px;
+    background-image: url(http://anpsthemes.com/limorent/demo-1/wp-content/uploads/2016/01/calltoaction-backgroundimage.jpg);
+    background-size: cover;
+    position: relative;
+}
+.desirve_right img{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+.desirve_left_top{
+    font-size: 36px;
+}
+.blue_text{
+    color: #4d9ed0;
+    font-size: 24px;
+    position: relative;
+    
+    padding: 0 0 20px;
+}
+.blue_text::before{
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 3px;
+    background-color: #4d9ed0;
+    bottom: 0;
+    left: 0;
+}
+.desirve_left_bottom{
+    margin-top: 54px;
+}
+.desirve_left_bottom span{
+    font-size: 18px;
+    color: #898989;
+}
+.desirve_left_button{
+    
+    margin-top: 49px;
+}
+.desirve_left_button a{
+    padding: 14px 31px;
+    border: 1px solid #4d9ed0;
+    border-radius: 3px;
+    background-color: #4d9ed0;
+    color: #fff;
+    transition: 0.4s;
+}
+.desirve_left_button a:hover{
+    background-color: #62afdf;
+    border: 1px solid #62afdf;
+}
+#Image{
+    background-color: #F8F9F9;
+}
+.card{
+    background-color: #F8F9F9;
+}
+.card-title{
+    font-weight: 100;
+}
+.card-text{
+    font-weight: 100;
+    color: #898989;
+}
+.readmore{
+    color: #4d9ed0;
+    font-size: 12px;
+}
+
+.models_box{
+    text-align: center;
+}
+.models_box a{
+    text-decoration: underline !important;
+    color: #000;
+    font-size: 18px;
+    margin: 0 0 30px;
+    border: 1px solid none;
+    padding: 12px 15px;
+    transition: 0.4s;
+}
+.models_box a:hover{
+    text-decoration: none !important;
+    color: #4d9ed0;
+}
+.car_img img{
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.car_img img:hover{
+    opacity: 1;
+}
+#BackgroundImage{
+    background-image: url(http://anpsthemes.com/limorent/demo-1/wp-content/uploads/2016/01/statement-limo.jpg?id=2111);
+    padding: 100px;
+    background-size: cover;
+}
+.bcg_text h1{
+    color: #fff;
+    font-size: 32px;
+    margin: 20px 0 10px;
+}
+.bcg_text p{
+    font-size: 18px;
+    
+    color: #c2c2c2;
+}
+.bcg_text a{
+    padding: 14px 31px;
+    border: 1px solid #4d9ed0;
+    border-radius: 3px;
+    background-color: #4d9ed0;
+    color: #fff;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+.bcg_text a:hover{
+    background-color: #62afdf;
+    border: 1px solid #62afdf;
+}
+.category_box{
+    text-align: center;
+}
+.category_box_top i{
+    font-size: 30px;
+    color: #4d9ed0;
+}
+.category_box_top h3{
+    font-size: 18px;
+    margin: 10px 0 20px;
+    font-weight: 100;
+}
+
+.category_box p{
+    font-size: 14px;
+    color: #898989;
+    margin-bottom: 10px;
+}
+.category_box a{
+    padding: 11px 0;
+}
+#Logo{
+    padding: 40px;
+    background-color: #F8F9F9;
+}
+.logo_box a:hover{
+    opacity: 1;
+}
+.logo_box a{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+#Mobile{
+    padding: 20px;
+    display: none;
+}
+.mobile_right a i{
+    font-size: 25px;
+    color: #000;
+    margin-top: 5px;
+    margin: 7px;
+}
+.mobile_right a{
+    border: 1px solid #000;
+    border-radius: 5px;
+    
+}
+
+@media (max-width: 576px){
+    .bottom{
+        display: none;
+    }
+    #Mobile{
+        display: block;
+    }
+    #Welcome{
+        padding: 100px; 
+    }
+    .welcome_text h1{
+        font-size: 51px;
+    }
+    .welcome_text p{
+        font-size: 13px;
+    }
+    .welcome_text a{
+        padding: 9px 26px;
+        font-size: 10px;
+    }
+    .desirve_right{
+        display: none;
+    }
+    .car_img img{
+        width: 369px;
+        opacity: 1;
+    }
+}
