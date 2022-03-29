@@ -293,5 +293,6 @@ i{
     .car_img img{
         width: 369px;
         opacity: 1;
+        width: 100%;
     }
 }
